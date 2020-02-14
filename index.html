@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+  <!-- <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script> -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="style.css">
     
@@ -76,10 +76,10 @@
           
         </section>
         <section class="card-container">
-          <div class="sbedri-container">
+          <div id="sbedri-container"class="sbedri-container ">
             <div class="icon-card-container">
             <i class="icon far fa-times-circle"onclick="resetsbedri()"></i>
-            <i class=" fas fa-heart"></i>
+            <i id="heartsbedri"class="heart fas fa-heart"onclick="heartsbedri()"></i>
           </div>
             <img src="sbedri.PNG" alt="">
             <div class="infoprod">
@@ -97,10 +97,10 @@
           <p>$</p>
         </div>
           </div>
-          <div class="sbedri-container">
+          <div id="klasset-container" class="sbedri-container klasset-container">
             <div class="icon-card-container">
               <i class="icon far fa-times-circle" onclick="resetklasset()"></i>
-              <i class="icon fas fa-heart"></i>
+              <i id="heartklasset"class="heart icon fas fa-heart"onclick="heartklasseta()"></i>
             </div>
             <img src="klasset.PNG" alt="">
             <div class="infoprod">
@@ -118,10 +118,10 @@
             <p>$</p>
           </div>
           </div>
-          <div class="icon sbedri-container">
+          <div id="kartaba-container"class="icon sbedri-container ">
             <div class="icon-card-container">
               <i class="icon far fa-times-circle"onclick="resetkartaba()"></i>
-              <i class="icon fas fa-heart"></i>
+              <i id="heartkartaba"class=" icon fas fa-heart"onclick="heartkartaba()"></i>
             </div>
             <img src="kartaba.PNG" alt="">
             <div class="infoprod">
